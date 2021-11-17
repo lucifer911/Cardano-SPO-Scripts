@@ -2,7 +2,7 @@
 # shellcheck disable=SC2034,SC2086,SC2230,SC2009,SC2206,SC2062,SC2059
 # Replace YOUR-USERNAME and YOUR-PING-ID below. You need a Healthcheck.io Account
 
-CARDANO_CLI_PATH=home/manimj/.cabal/bin/cardano-cli                                       #Set the name which was used for Installing CNODE. - e.g. /home/YOUR-USERNAME/.cabal/bin/cardano-cli
+CARDANO_CLI_PATH=/home/manimj/.cabal/bin/cardano-cli                                       #Set the name which was used for Installing CNODE. - e.g. /home/YOUR-USERNAME/.cabal/bin/cardano-cli
                                                         #Make sure to replace YOUR-USER
 HEALTHCHECKS_PING_URL=                                  #Copy and Paste the full Ping URL from Healthcheks.IO - e.g. https://hc-ping.com/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee
 ACCEPTED_TIP_DIFF=80                                    #How many seconds are OK before starting to not send OK signals to Healthcheks?
